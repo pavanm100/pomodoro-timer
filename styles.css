@@ -1,0 +1,79 @@
+/* #start {
+    
+} */
+
+.hidden {
+    display: none;
+}
+
+* {
+    font-family: Inter, system-ui, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #03040e;
+    color: white;
+    text-align: center;
+    transition: background-color 1s ease;   
+    /* background-color: #1d7a14; */
+
+}
+
+
+
+h2 {  /* timer */
+    font-size: 200px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background: -webkit-linear-gradient(#ffffff, #514e81);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#break {
+    font-size: 50px;
+    background: -webkit-linear-gradient(#ffffff, #514e81);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+/* cycle counter */
+
+h3 {
+    font-size: 23px;
+}
+
+h1 {
+    font-size: 72px;
+     background: linear-gradient(to right, #B229F0, #868CF7, #4E0B97); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+  }
+
+
+button {
+  background: #514e81;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
